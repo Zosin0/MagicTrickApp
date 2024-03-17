@@ -64,7 +64,7 @@ const LockScreen = () => {
     };
 
     const formatTime = (time) => {
-        return time ? time.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) : "";
+        return time ? time.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false }) : "";
     };
 
     const formatDate = (time) => {
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
         height: 30, // Ajuste conforme necessário
     },
 
-    iconSmall: {
+        iconSmall: {
         width: 30, // Ajuste conforme necessário
         height: 30, // Ajuste conforme necessário
     },
