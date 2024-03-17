@@ -4,6 +4,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import StartMagicScreen from './StartMagicScreen';
 import LockScreen from './LockScreen';
 
+// Adding Deploy
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
